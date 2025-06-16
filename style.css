@@ -1,0 +1,133 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #6b5e55, #1e1917);
+  color: white;
+  min-height: 100vh;
+}
+
+
+.topnav {
+  width: 100%;
+  background-color: #333;
+  overflow: hidden;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.topnav #myLinks {
+  display: none;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  padding-top: 80px; 
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+
+.text-content h1 {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.text-content .name {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.Drawing-container {
+  padding-top: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+}
+
+.Drawing-container h1 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.Drawing-content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+}
+
+.Drawing-left,
+.Drawing-right {
+  width: 45%;
+}
+
+.web-dev-section {
+  padding: 60px 40px;
+  color: white;
+}
+
+.web-dev-section h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.web-dev-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.results-box {
+  width: 45%;
+}
+
+.placeholder-box {
+  width: 100%;
+  height: 100px;
+  background-color: #ccc;
+  margin-top: 10px;
+}
+
+
+.game-dev-images img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+}
+.box{
+  text-shadow: 10px 10px 5px rgb(0, 0, 0);
+  font-size: 20px;
+}
